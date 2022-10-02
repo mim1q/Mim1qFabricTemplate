@@ -2,8 +2,7 @@
 
 This is my template for Fabric Mods.
 
-The template is licensed under the CC0 License, so you can do anything you want with it.
-Credit isn't required, but is appreciated :blush:
+The template is licensed under the CC0 License. Credit isn't required, but is appreciated :blush:
 
 ## Using this template
 
