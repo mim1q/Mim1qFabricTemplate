@@ -3,10 +3,35 @@
 This is my template for Fabric Mods.
 
 The template is licensed under the CC0 License. Credit isn't required, but is appreciated :blush:
+Please include your own `README.md` and `LICENSE` files after generating a project.
 
 ## Using this template
 
 To use the template, simply click the "Use this template" button on the top right of the page and create a new project.
+
+For now, you will have to create your own `src/main/resources/fabric.mod.json` file. 
+Please refer to the [documentation](https://fabricmc.net/wiki/documentation:fabric_mod_json) for more information.
+
+Example minimal fabric.mod.json:
+```json
+{
+  "schemaVersion": 1,
+  "id": "example",
+  "name": "Example mod",
+  "version": "${version}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.examplemod.ExampleMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": ">=0.58.0",
+    "minecraft": "1.19.2"
+  }
+}
+```
 
 ## Modifying mod data
 
