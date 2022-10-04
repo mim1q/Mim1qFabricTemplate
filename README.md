@@ -12,7 +12,7 @@ To use the template, simply click the "Use this template" button on the top righ
 For now, you will have to create your own `src/main/resources/fabric.mod.json` file. 
 Please refer to the [documentation](https://fabricmc.net/wiki/documentation:fabric_mod_json) for more information.
 
-Example minimal fabric.mod.json:
+Example minimal `fabric.mod.json`:
 ```json
 {
   "schemaVersion": 1,
@@ -37,11 +37,11 @@ Example minimal fabric.mod.json:
 
 The mod data is stored in `buildSrc/src/main/kotlin/ModData.kt`. 
 You can change the group, mod id, version and name there.
-There's also a Versions.kt file in the same directory. It stores the versions of all the required dependencies.
+There's also a `Versions.kt` file in the same directory. It stores the versions of all the required dependencies.
 
 You can freely add fields to ModData and Versions, but you should keep the already existing ones.
 
-To use the fields in the build.gradle.kts file, you can use the `modData` and `versions` objects, e.g:
+To use the fields in the `build.gradle.kts` file, you can use the `ModData` and `Versions` objects, e.g:
 
 ```kotlin
 dependencies {
